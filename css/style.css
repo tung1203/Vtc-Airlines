@@ -266,6 +266,7 @@ a:hover {
     text-align: center;
     position: relative;
     margin-bottom: 1.2rem;
+    margin-top: 1rem;
 }
 
 .section-title span {
@@ -357,6 +358,7 @@ a:hover {
 
 /*footer*/
 footer {
+    margin-top: 2rem;
     color: #D9F6FF;
 }
 
@@ -523,6 +525,9 @@ header .fa-bars {
     /*.banner__search {*/
     /*margin-bottom: 2rem;*/
     /*}*/
+    .note {
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -540,7 +545,7 @@ header .fa-bars {
     }
 
     .footer__bottom {
-        margin-top: 9rem;
+        margin-top: 3rem;
     }
 
 }
@@ -560,6 +565,11 @@ header .fa-bars {
 }
 
 @media (max-width: 575.98px) {
+    .navbar .logo {
+        width: 12rem;
+        height: auto;
+    }
+
     .banner .container {
         padding: 0;
     }
@@ -691,3 +701,16 @@ header .fa-bars {
     }
 }
 
+@media (max-width: 360px) {
+    .navbar .logo {
+        width: 18rem;
+        height: auto;
+    }
+
+    .banner__title {
+        width: auto;
+        padding: 0;
+    }
+
+
+}

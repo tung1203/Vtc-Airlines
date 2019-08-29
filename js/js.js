@@ -88,13 +88,13 @@ document.querySelectorAll('#js-ipTo + .box-from-to .locationName').forEach((valu
 
 
 $(document).ready(() => {
-    $("#inputDateFrom").datepicker({ dateFormat: 'dd-mm-yy' }).val(new Date().toLocaleDateString('vi-VN', {
+    $("#inputDateFrom").datepicker({ dateFormat: 'dd/mm/yy' }).val(new Date().toLocaleDateString('vi-VN', {
         day: 'numeric',
         month: 'numeric',
         year: 'numeric'
     }).split(' ').join('-'));
 
-    $("#inputDateTo").datepicker({ dateFormat: 'dd-mm-yy' }).val(new Date().toLocaleDateString('vi-VN', {
+    $("#inputDateTo").datepicker({ dateFormat: 'dd/mm/yy' }).val(new Date().toLocaleDateString('vi-VN', {
         day: 'numeric',
         month: 'numeric',
         year: 'numeric'
